@@ -1,0 +1,320 @@
+body{
+    background-color: #262626;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+
+p{
+    color: white;
+}
+
+.button-about{
+    color: white;
+    border-radius: 5px;
+    background-color: #26C6FF;
+    border: solid 1px #26C6FF;
+    cursor: pointer;
+    font-size: 25px;
+    padding: 5px;
+    box-shadow: 0px 0px 5px #26C6FF;
+
+}
+
+.button-buy{
+    color: #26C6FF;
+    border-radius: 5px;
+    background-color: #171717;
+    border: solid 1px #26C6FF;
+    cursor: pointer;
+    font-size: 25px;
+    padding: 5px;
+    box-shadow: 0px 0px 5px #26C6FF;
+
+}
+
+
+.table{
+    padding: 30px;
+    margin-top: 60px;
+}
+.datatable{
+    color: white;
+}
+
+/*Header*/
+
+header{
+    display: flex;
+    min-height: 90px;
+    background-color: #303030;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 0px 0px 15px #26C6FF;
+    position: sticky;
+
+}
+
+
+.logo{
+    display: flex;
+    align-items: center;
+    
+}
+
+.logo-img{
+height: 30px;
+padding: 20px;
+
+
+
+   
+}
+
+.button-header{
+    padding: 20px;
+    
+}
+
+nav a{
+    padding-right: 20px;
+    
+}
+
+nav a:hover{
+    color:#26C6FF;
+    cursor: pointer;
+}
+/*content web*/
+
+
+
+.father-container{
+    display: grid;
+    grid-template-columns: repeat(2 1fr)
+    grid-template-rows: repeat(1 1fr);
+    grid-template-areas: 
+        "header header"
+        "banner banner"
+        "footer footer";
+
+}        
+
+header{
+    grid-area: header;
+} 
+
+.banner{
+    grid-area: banner;
+}
+
+footer{
+   grid-area: footer;
+}
+
+
+.banner{
+    display: flex;
+    margin-top: 5%;
+
+
+}
+
+.left-column, .right-column¨{
+    flex-basis: 50%;
+}
+
+
+
+.left-column{
+    margin-top: 30px;
+    padding-left: 50px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+.img-headphones{
+    height: 350px;
+    animation: float 3s linear infinite;
+    margin-left: 50px;
+    
+    
+}
+
+
+
+/*img effect*/
+
+@keyframes float{
+    0%, 100%{
+        transform: translateY(0px);    
+    }
+    50%{
+        transform: translateY(-8px);
+    }
+
+}
+
+/*form*/
+
+.form-contact{
+    width: 400px;
+    background-color: #303030;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 15px;
+    color: white;
+    box-shadow: 0px 0px 15px #26C6FF;
+
+    font-family: sans-serif;
+
+}
+
+.form-contact h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+    
+}
+
+.form-contact .botons{
+    width: 100%;
+    background: #26C6FF;
+    border: none;
+    padding: 12px;
+    margin: 16px 0;
+    font-size: 16px;
+    color: white;
+}
+
+.controls{
+    width: 100%;
+    background: #262626;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #26C6FF;
+    color: #26C6FF;
+
+}
+
+.p-about{
+    padding: 30px;
+}
+
+
+/*Products*/
+
+
+
+.items-container{
+  display: flex;
+  flex-wrap: row;
+  padding: 20px;
+  margin-top: 150px;
+}
+
+.box{
+
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  padding: 20px;
+  background-color: #303030;
+  box-shadow: 0px 0px 15px #26C6FF;
+  margin: 20px;
+  align-items: baseline;
+  border-radius: 10px;
+  
+
+}
+
+.box .img-item, .img-item-2{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-radius: 10px;
+  height: 250px;
+  width: 250px;
+  margin-top: 20px;
+  
+}
+
+.img-item-2{
+    width: auto;
+}
+
+.text-box{
+    text-align: center;
+
+}
+
+
+.btn-box{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    padding: 12px;
+    font-size: 16px;
+    background-color: #26C6FF;
+    color: white;
+    border: solid #26C6FF;
+    box-shadow: 0px 0px 3px  #26C6FF;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+/*FOOTER*/
+
+footer{
+    
+    
+    padding: 20px;
+    display: flex;
+    background-color: #303030;
+    justify-content: center;
+    margin-top: 150px;
+
+}
+
+
+
+
+
+
+.copyright{
+    display: flex;
+    color: #f2f2f2;    
+    text-align: center;
+    align-content: baseline;
+    justify-content: center;
+}
+
+
+
+
+
